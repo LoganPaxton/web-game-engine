@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body, html {
+    background-color: #2f2f2f;
+    font-family: "Rubik", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#show_window, #show_script {
+    margin-top: 2px;
+    background-color: #5f5f5f;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#title {
+    margin-bottom: 4px;
+}
+
+#game_window {
+    display: block;
+    margin: 20px auto;
+}
+
+#settings_panel {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    padding: 10px;
+    background-color: #1f1f1f;
+    height: 100%;
+}
+
+input {
+    border: none;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    background-color: black;
+}

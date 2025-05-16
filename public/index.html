@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>WEngine</title>
+    <script src="scripts/index.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">WEngine</h1>
+        <button id="show_window" onclick="show('Window')">Window</button>
+        <button id="show_script" onclick="show('Script')">Script</button>
+    </header>
+    <div id="settings_panel">
+        <h2>Settings</h2>
+        <label for="border">Toggle Border:</label>
+        <input type="checkbox" id="border">
+        <br>
+        <label for="bg-color">BG Color (Hex Color Code): </label>
+        <input type="text" id="bg-color" autocomplete="off" placeholder="#ffffff">
+    </div>
+    <canvas id="game_window" height="400" width="500">
+        Your broswer does not support HTML 5.
+    </canvas>
+    <script src="scripts/renderer.js"></script>
+</body>
+</html>
